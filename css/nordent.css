@@ -1,0 +1,128 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+}
+
+.toTop{
+	cursor:pointer;
+}
+
+.parallax-window {
+  height: 800px;
+  background: transparent;
+}
+
+.mini-parallax-window {
+  min-height: 450px;
+  background: transparent;
+}
+
+.parallax-window > .container {
+  padding-top: 15%; 
+  color: #fff;
+}
+
+.parallax-window > .container > p {
+  font-size: 25px;
+  text-shadow: 2px 1px 15px rgba(0, 0, 0, 1);
+}
+.parallax-window > .container > h1 {
+  font-size: 120px;
+  text-shadow: 2px 1px 15px rgba(0, 0, 0, 1);
+}
+
+.navbar-default {
+    background-color: rgba(0, 146, 214, 0.6);
+    min-height: 70px;
+}
+.navbar-default > .container {
+	margin-top: 10px;
+}
+
+.navbar-nav>li>a {
+    background-color: rgba(248, 248, 248, 0);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700
+}
+.logo {
+  position: absolute;
+  width: 50px;
+  left: 50px;
+  top: 13px;
+}
+
+.logo-texto {
+    position: absolute;
+    left: 110px;
+    top: 16px;
+}
+
+.titulo-seccion {
+  font-size: 50px;
+}
+
+.nordent-color {
+	color: #0092d6;
+	border-bottom: 1px solid #0092d6;
+}
+
+.img-nordent{
+	width: 100%;
+}
+
+#staff {
+    height: 500px;
+    position: relative;
+}
+
+.nordent-staff {
+    position: absolute;
+    width: 30%;
+    height: auto!important;
+    display: inline;
+}
+
+#foto1 {
+    left: 1%;
+}
+#foto2 {
+    left: 20%;
+    z-index: 1;
+}
+#foto3 {
+    left: 40%;
+}
+
+#obras {
+  min-height: 300px;
+}
+.nordent-contact {
+	margin-top: 3%;
+	background-color: #00121E;
+	height: 614px;
+}
+.nordent-contact h1 {
+	color: #fff;
+}
+
+.nordent-contact h2 {
+	color: #fff;
+}
+.nordent-contact h3 {
+	color: #fff;
+}
+.nordent-contact h4 {
+	color: #fff;
+}
+
+.nordent-map {
+	position: absolute;
+    top: -133px;
+    left: 1px;
+}
