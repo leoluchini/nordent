@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .toTop{
 	cursor:pointer;
+  margin-top: 25px;
 }
 
 .parallax-window {
@@ -77,7 +78,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #staff {
-    height: 500px;
+    height: 520px;
     position: relative;
 }
 
@@ -93,10 +94,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #foto2 {
     left: 20%;
-    z-index: 1;
 }
 #foto3 {
-    left: 40%;
+    left: 38%;
+    z-index: 1;
+}
+#foto4 {
+    left: 58%;
+}
+#foto5 {
+    left: 75%;
+}
+#foto6 {
+    left: 94%;
 }
 
 #obras {
@@ -123,6 +133,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .nordent-map {
 	position: absolute;
-    top: -133px;
+    top: -155px;
     left: 1px;
 }
