@@ -46,11 +46,24 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar-nav>li>a {
     background-color: rgba(248, 248, 248, 0);
 }
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #0092d6;
+  background-color: #fff;
+}
+
 .logo {
   position: absolute;
   width: 50px;
