@@ -6,6 +6,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 700;
 }
 
+.nordent-header {
+  border-top: 4px solid #0092d6;
+  width: 50%;
+  margin-left: 0px;
+}
+
 .toTop{
 	cursor:pointer;
   margin-top: 25px;
