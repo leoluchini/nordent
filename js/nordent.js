@@ -1,4 +1,7 @@
 $(function(){
+
+    $("img.lazy").lazyload();
+
 	window.sr = ScrollReveal();
 	
 	var hero = {
