@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 70px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -42,11 +43,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default {
-    background-color: rgba(0, 146, 214, 0.6);
+    background-color: rgba(0, 18, 30, 0.9);
     min-height: 70px;
-}
-.navbar-default > .container {
-	margin-top: 10px;
+    border: none;
 }
 
 .navbar-nav>li>a {
@@ -60,7 +59,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #000;
+  color: #0092d6;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -69,7 +68,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #0092d6;
   background-color: #fff;
 }
-
+.page-scroll {
+  height: 70px;
+  padding-top: 24px !important;
+  
+}
 .logo {
   position: absolute;
   width: 50px;
@@ -135,27 +138,99 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #obras {
   min-height: 300px;
 }
-.nordent-contact {
-	margin-top: 3%;
-	background-color: #00121E;
-	height: 614px;
-}
 .nordent-contact h1 {
-	color: #fff;
+  color: #fff;
 }
 
 .nordent-contact h2 {
-	color: #fff;
+  color: #fff;
 }
 .nordent-contact h3 {
-	color: #fff;
+  color: #fff;
 }
 .nordent-contact h4 {
-	color: #fff;
+  color: #fff;
 }
 
-.nordent-map {
+.nordent-contact {
+	background-color: #00121E;
+}
+.nordent-map1 {
 	position: absolute;
     top: -155px;
     left: 1px;
+}
+
+.nordent-consultas{
+  font-size: 40px;
+}
+.nordent-text-contact{}
+
+@media (max-width: 480px) {
+  .navbar-nav {
+    margin: 25.5px -15px;
+  }
+  .container>.navbar-header{
+    height: 70px;
+  }
+  #staff {
+    height: 385px;
+  }
+  .nordent-titulo{
+    margin-top: 40%;
+  }
+  .nordent-consultas{
+    font-size: 30px;
+  }
+  .nordent-staff {
+    width: 25%;
+  }
+
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #0092d6 !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: none;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+    padding: 29px 23px;
+    margin: 0px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  .logo {
+    left: 20px;
+  }
+
+  .logo-texto {
+    left: 80px;
+  }
+  
+}
+
+@media (max-width: 768px ) {
+  .nordent-staff {
+    width: 25%;
+  }
+  .nordent-text-contact{
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .nordent-text-contact{
+    height: 510px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .nordent-text-contact{
+    height: 489px;
+  }
 }
