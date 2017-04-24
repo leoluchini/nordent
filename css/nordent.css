@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .nordent-staff {
     position: absolute;
-    width: 30%;
+    width: 34%;
     height: auto!important;
     display: inline;
 }
@@ -188,9 +188,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .nordent-consultas{
     font-size: 30px;
-  }
-  .nordent-staff {
-    width: 25%;
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
