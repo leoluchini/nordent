@@ -119,23 +119,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #foto1 {
-    left: 1%;
+  left: -8%;
 }
 #foto2 {
-    left: 20%;
+    left: 11%;
 }
 #foto3 {
-    left: 38%;
-    z-index: 1;
+  left: 27%;
+  z-index: 5;
 }
 #foto4 {
-    left: 58%;
+  left: 46%;
+  z-index: 4;
 }
 #foto5 {
-    left: 75%;
+  left: 64%;
+  z-index: 3;
 }
 #foto6 {
-    left: 94%;
+  left: 81%;
+  z-index: 2;
 }
 
 .box{
@@ -182,6 +185,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   #staff {
     height: 385px;
+  }
+  .nordent-staff{
+    width: 28%;
   }
   .nordent-titulo{
     margin-top: 40%;
