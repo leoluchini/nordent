@@ -8,6 +8,7 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   padding-top: 70px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .toTop{
-	cursor:pointer;
+  cursor:pointer;
   margin-top: 14px;
 }
 
@@ -100,12 +101,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .nordent-color {
-	color: #0092d6;
-	border-bottom: 1px solid #0092d6;
+  color: #0092d6;
+  border-bottom: 1px solid #0092d6;
 }
 
 .img-nordent{
-	width: 100%;
+  min-height: 200px;
+  margin-top: 12%;
 }
 
 #staff {
@@ -165,10 +167,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .nordent-contact {
-	background-color: #00121E;
+  background-color: #00121E;
 }
 .nordent-map1 {
-	position: absolute;
+  position: absolute;
     top: -155px;
     left: 1px;
 }
@@ -234,6 +236,28 @@ p.nordent-consultas{
   }
   .section-desktop{
     display: none;
+  }
+
+  .img-nordent{
+    min-height: 186px;
+  }
+  #foto1 {
+    left: -2%;
+  }
+  #foto2 {
+    left: 12%;
+  }
+  #foto3 {
+    left: 25%;
+  }
+  #foto4 {
+    left: 42%;
+  }
+  #foto5 {
+    left: 56%;
+  }
+  #foto6 {
+    left: 72%;
   }
 }
 
