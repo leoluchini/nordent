@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .parallax-window > .container {
-  padding-top: 32vh; 
+  padding-top: 23vh; 
   color: #fff;
 }
 
@@ -194,8 +194,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 320px;
   }
 
-  .nordent-consultas {
-    width: 100%;
+  .nordent-header,
+  .nordent-consultas p{
+    width: 100% !important;
   }
   .navbar-nav {
     margin: 25.5px -15px;
@@ -271,6 +272,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (max-width: 768px ) {
+  .nordent-header,
   .nordent-consultas p{
     width: 100%;
   }
@@ -293,6 +295,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 @media (max-width: 992px) {
+  .nordent-header,
   .nordent-consultas p{
     width: 80%;
   }
