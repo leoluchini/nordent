@@ -189,6 +189,10 @@ p.nordent-consultas{
 }
 
 @media (max-width: 480px) {
+  .parallax-window {
+    height: 320px;
+  }
+
   .navbar-nav {
     margin: 25.5px -15px;
   }
@@ -263,6 +267,9 @@ p.nordent-consultas{
 }
 
 @media (max-width: 768px ) {
+  .parallax-window {
+    height: 480px;
+  }
   .nordent-text-contact{
     height: 100% !important;
   }
