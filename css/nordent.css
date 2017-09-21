@@ -106,7 +106,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .img-nordent{
-  min-height: 200px;
+  width: 100%;
+  height: 200px;
   margin-top: 12%;
 }
 
