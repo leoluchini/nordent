@@ -193,6 +193,9 @@ p.nordent-consultas{
     height: 320px;
   }
 
+  p.nordent-consultas {
+    width: 100%;
+  }
   .navbar-nav {
     margin: 25.5px -15px;
   }
