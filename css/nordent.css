@@ -283,6 +283,9 @@ p.nordent-consultas{
     display: inline;
   }
 
+  .nordent-staff{
+    width: 32%;
+  }
 }
 
 @media (max-width: 992px) {
