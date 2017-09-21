@@ -282,9 +282,28 @@ p.nordent-consultas{
   .section-desktop{
     display: inline;
   }
+
 }
 
 @media (max-width: 992px) {
+  #foto1 {
+    left: -4%;
+  }
+  #foto2 {
+    left: 11%;
+  }
+  #foto3 {
+    left: 25%;
+  }
+  #foto4 {
+    left: 42%;
+  }
+  #foto5 {
+    left: 55%;
+  }
+  #foto6 {
+    left: 68%;
+  }
   .nordent-text-contact{
     height: 510px;
   }
