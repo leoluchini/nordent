@@ -1,3 +1,18 @@
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#navbar a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos + 80 && refElement.position().top + refElement.height() > scrollPos) {
+            $('#navbar ul li').removeClass("active");
+            currLink.parent('li').addClass("active");
+        }
+        else{
+            currLink.parent('li').removeClass("active");
+        }
+    });
+}
+
 $(function(){
 
     $("img.lazy").lazyload();
@@ -27,22 +42,7 @@ $(function(){
         $("html, body").animate({scrollTop: 0}, 1000);
     });
 
-    $(window).scroll(function() {
-        var windscroll = $(window).scrollTop();
-        if (windscroll >= 100) {
-            $('section').each(function(i) {
-                if ($(this).position().top <= windscroll + 20) {
-                    $('nav li.active').removeClass('active');
-                    $('nav a').eq(i).parent().addClass('active');
-                }
-            });
-
-        } else {
-            $('nav a.active').removeClass('active');
-            $('nav a:first').addClass('active');
-        }
-
-    }).scroll();
+    $(document).on("scroll", onScroll);
 
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

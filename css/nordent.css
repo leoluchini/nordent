@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 #obras {
   min-height: 300px;
+  margin-bottom: 10vh;
 }
 .nordent-contact h1 {
   color: #fff;
@@ -170,10 +171,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .nordent-contact {
   background-color: #00121E;
 }
-.nordent-map1 {
-  position: absolute;
-    top: -155px;
-    left: 1px;
+.nordent-map {
+  margin-bottom: 15vh;
 }
 
 .nordent-consultas p{
