@@ -403,7 +403,7 @@
             <div class="container">
                 <div class="row nordent-contact">
                 <div class="col-md-6 col-xs-12">
-                    <img class="img-responsive nordent-map" src="images/mapa_nordent.jpg">
+                    <div id="map"></div>
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <div class="col-md-8 col-md-offset-2">
@@ -419,6 +419,23 @@
             </div>
         </div>
     </section>
+    <script>
+      function initMap() {
+        var uluru = {lat: -34.8977981, lng: -57.95868410000003};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var image = 'images/marker.png'
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'NORDENT',
+          icon: image
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwVnqDymzwhVopuPqGhqKXyayjNRY5cbA&callback=initMap"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.lazyload.min.js"></script>
